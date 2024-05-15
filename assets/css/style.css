@@ -1,0 +1,124 @@
+/**Reset**/
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box ;
+}
+/**Variável**/
+
+:root{
+    --color-nao-metais:#4603b1;
+    --clor-gases-nobres:#277da1;
+    --clor-metais-alcalinos: #e20808;
+    --coor-metais-alcalinos-terrosos : #F94141;
+    --color-semimetais: #43aa8b;
+    --color-halogenios: #87b465;
+    --color-outros-metais: #4d908e;
+    --color-metais-transicao: #2a796c;
+    --color-lantanideos: #277da1;
+    --color-actinidios: #79456c;
+    --clor-text:#fff;
+}
+
+.elemento{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    color: var(--clor-text);
+}
+.naoMetais{
+    background-color: var(--color-nao-metais);
+}
+.gasesNobres{
+    background-color: var(--clor-gases-nobres);
+}
+.metaisAlcalinos{
+    background-color: var(--clor-metais-alcalinos);
+}
+.metaisAlcalinosterrosos{
+    background-color: var(--coor-metais-alcalinos-terrosos);
+}
+.semimetais{
+    background-color: var(--color-semimetais);
+}
+.halogenios{
+    background-color: var(--color-halogenios);
+}
+.outrosMetais{
+    background-color: var(--color-outros-metais);
+}
+.metaisTrasiçao{
+    background-color: var(--color-metais-transicao);
+}
+.latanideos{
+    background-color: var(--color-lantanideos);
+}
+.actinideos{
+    background-color: var(--color-actinidios);
+}
+.estilo{
+    border-radius: 10px;
+    padding: 5px;
+}
+.right{
+    text-align: right;
+}
+/**desktop**/
+@media screen and (min-width: 600px ){
+
+
+    .linha01{
+        display: flex;
+        justify-content: space-between;
+    }
+    .linha02{
+        display: flex;
+        justify-content: space-between;
+    }
+    .subilinha01{
+        display: flex;
+        justify-content: baseline;
+    }
+    .subilinha02{
+        display: flex;
+        justify-content: end;
+    }
+
+    .linha03{
+        display: flex;
+        justify-content: space-between;
+    }
+    .subilinha03{
+        display: flex;
+        justify-content: baseline;
+    }
+    .subilinha04{
+        display: flex;
+        justify-content: end;
+    }
+
+    .linha04{
+        display: flex;
+        justify-content: end;
+    }
+    .linha05{
+        display: flex;
+        justify-content: end;
+    }
+    .linha06{
+        display: flex;
+        justify-content: end;
+    }
+    .linha07{
+        display: flex;
+        justify-content: end;
+    }
+    .linha08{
+        display: flex;
+        justify-content: end;
+    }
+    .linha09{
+        display: flex;
+        justify-content: end;
+    }
+}
